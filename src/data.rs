@@ -5,73 +5,73 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
+            name: "ASUS TUF Gaming F15".to_string(),
+            price: 1299.99,
+            description: "Powerful 11th Gen Intel Core i7 laptop with RTX 3050 Ti, designed for high performance gaming and multitasking.".to_string(),
+            image: "/asus_tuf.jpg".to_string()
         },
         Product {
             id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
-            image: "/squid.jpg".to_string()
+            name: "MacBook Pro 14-inch M2".to_string(),
+            price: 1999.99,
+            description: "Apple M2 Pro chip, Liquid Retina XDR display, and up to 18 hours of battery life. Ideal for creative professionals.".to_string(),
+            image: "/macbook_pro.jpg".to_string()
         },
         Product {
             id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
-            image: "/mermaid.jpg".to_string()
+            name: "Lenovo Legion 5 Pro".to_string(),
+            price: 1599.99,
+            description: "AMD Ryzen 7 + NVIDIA RTX 3070, QHD 165Hz display, engineered for competitive gaming and content creation.".to_string(),
+            image: "/lenovo_legion.jpg".to_string()
         },
         Product {
             id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
-            image: "/ocean.jpg".to_string()
+            name: "Dell XPS 13".to_string(),
+            price: 1099.99,
+            description: "Compact, lightweight, and elegant ultrabook with 11th Gen Intel Evo platform and stunning InfinityEdge display.".to_string(),
+            image: "/dell_xps13.jpg".to_string()
         },
         Product {
             id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
-            image: "/pirate.jpg".to_string()
+            name: "HP Spectre x360 14".to_string(),
+            price: 1399.00,
+            description: "Versatile 2-in-1 design with OLED touchscreen, Thunderbolt 4, and exceptional battery life for mobile productivity.".to_string(),
+            image: "/hp_spectre.jpg".to_string()
         },
         Product {
             id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
-            image: "/tug.jpg".to_string()
+            name: "Microsoft Surface Laptop 5".to_string(),
+            price: 1299.00,
+            description: "Sleek and elegant laptop with 12th Gen Intel Core, PixelSense display, and lightweight design.".to_string(),
+            image: "/surface_laptop.jpg".to_string()
         },
         Product {
             id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
-            image: "/bed.jpg".to_string()
+            name: "Acer Swift X".to_string(),
+            price: 999.00,
+            description: "Portable powerhouse with Ryzen 7, RTX 3050, and 100% sRGB display, ideal for editing and AI workloads.".to_string(),
+            image: "/acer_swift.jpg".to_string()
         },
         Product {
             id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
-            image: "/knot.jpg".to_string()
+            name: "Razer Blade 15".to_string(),
+            price: 2199.99,
+            description: "Thin and powerful gaming laptop with RTX 4070 and 240Hz QHD display for immersive AAA gameplay.".to_string(),
+            image: "/razer_blade.jpg".to_string()
         },
         Product {
             id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
-            image: "/crabby.jpg".to_string()
+            name: "Framework Laptop DIY Edition".to_string(),
+            price: 1049.00,
+            description: "Modular and repairable laptop with fully customizable components, made for developers and engineers.".to_string(),
+            image: "/framework.jpg".to_string()
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
+            name: "MSI Creator Z16".to_string(),
+            price: 1799.00,
+            description: "High-end laptop for creators with 16:10 touchscreen, RTX 3060 GPU, and superb color accuracy.".to_string(),
+            image: "/msi_creator.jpg".to_string()
         }
     ]
 }
